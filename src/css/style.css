@@ -1,0 +1,163 @@
+/* To do list app */
+body {
+    margin: 0;
+    color: #000;
+    background-color: rgb(248, 248, 248);
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  
+  .App {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .homepage {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .homepage h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    font-weight: bold;
+  }
+  
+  .homepage a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-style: normal;
+    text-decoration: none;
+  }
+  
+  .homepage .tasks {
+    margin-top: 40px;
+  }
+  
+  .homepage .tasks .Work {
+    color: #ffaa00;
+  }
+  
+  .homepage .tasks .Music {
+    color: #ff4400;
+  }
+  
+  .homepage .tasks .Travel {
+    color: #22ff00;
+  }
+  
+  .homepage .tasks .Study {
+    color: #aa22ff;
+  }
+  
+  .homepage .tasks .Home {
+    color: #ff0000;
+  }
+  
+  .homepage .tasks .Shopping {
+    color: #ff00aa;
+  }
+  
+  .homepage .tasks .Art {
+    color: #00a4ff;
+  }
+  
+  .homepage a h6 {
+    font-size: 1.5em;
+  }
+  
+  .homepage .newTaskButton {
+    margin: 0px;
+    top: auto;
+    right: 30px;
+    bottom: 20px;
+    left: auto;
+    position: fixed;
+    color: #fff;
+  }
+  
+  .taskListPage {
+    background-color: #3f51b5;
+  }
+  
+  .taskListPage .taskCategory {
+    padding: 20px 20px 20px 20px;
+    color: #fff;
+  
+  }
+  .taskCategory h4 {
+    margin-left: 30px;
+  }
+  
+  .taskCategory h6 {
+    margin-left: 30px;
+  }
+  
+  .taskListPage .taskCategory .categoryIcon {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .taskListPage .taskList {
+    border-radius: 20px;
+  }
+  
+  .taskListPage .newTaskButton {
+    margin: 0px;
+    top: auto;
+    right: 30px;
+    bottom: 20px;
+    left: auto;
+    position: fixed;
+    color: #fff;
+  }
+  
+  .task {
+    display: flex;
+    padding: 10px;
+    margin: 12px;  
+  }
+  
+  .task .taskTitle {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  
+  }
+  
+  .task p {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .task h6 {
+    font-size: 1em;
+  }
+  
+  .task .taskDeleteButton {
+    margin-top:40px;
+    margin-left: 10px;
+  }
+  
+  .form .text_field {
+    margin: 20px;
+    width: 80%;
+  }
+  
+  .form {
+    text-align: center;
+    margin-top: 20px;
+   
+   }
+  
+  .form .page_title {
+    margin: 30px;
+  }
+  
+  .form button {
+    margin-top: 30px;
+    border-radius: 0%;
+  } 
+  
+  
+  
